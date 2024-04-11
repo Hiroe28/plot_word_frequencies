@@ -6,7 +6,6 @@ from wordcloud import WordCloud
 from PIL import Image
 import matplotlib.pyplot as plt
 import japanize_matplotlib
-from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 
 # MeCabの初期化
