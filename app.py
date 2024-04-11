@@ -38,7 +38,7 @@ def visualize_word_frequencies(text):
     tokens = mecab_tokenizer(text)
     word_freq = Counter(tokens)
     
-    # 頻度の高い上位10語を取得
+    # 頻度の高い上位50語を取得
     common_words = word_freq.most_common(50)
     
     # 可視化
